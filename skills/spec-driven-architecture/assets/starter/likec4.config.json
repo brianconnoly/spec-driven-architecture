@@ -1,0 +1,10 @@
+{
+  "$schema": "https://likec4.dev/schemas/config.json",
+  "name": "spec-driven-starter",
+  "title": "Spec-driven starter",
+  "exclude": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/tsp-output/**"
+  ]
+}

@@ -1,0 +1,9 @@
+views {
+  view featureApp of app {
+    title 'Feature: sample application'
+    include operator
+    include app.appApi
+    include app.appApi.httpApi
+    include app.appDb
+  }
+}

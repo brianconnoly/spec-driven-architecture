@@ -1,0 +1,11 @@
+views {
+  view systemContext {
+    title 'System context'
+    include *
+  }
+
+  view containers of app {
+    title 'Containers'
+    include *
+  }
+}

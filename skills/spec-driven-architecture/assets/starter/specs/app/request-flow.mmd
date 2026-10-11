@@ -1,0 +1,5 @@
+%% Architecture: specs/architecture/model/app.c4 -> app.appApi.httpApi
+%% Contract: specs/app/app-api.tsp
+flowchart LR
+  caller[Caller] --> api[httpApi]
+  api --> store[appDb]

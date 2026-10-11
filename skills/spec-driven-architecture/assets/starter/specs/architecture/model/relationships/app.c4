@@ -1,0 +1,5 @@
+model {
+  app.appApi.httpApi -[storageWrite]-> app.appDb 'Persists accepted commands' {
+    technology 'SQL'
+  }
+}

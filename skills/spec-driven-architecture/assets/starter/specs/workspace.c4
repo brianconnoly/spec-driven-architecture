@@ -1,0 +1,14 @@
+model {
+  operator = person 'Operator' 'Person who uses the product.'
+
+  app = system 'App' 'Sample system. Replace the name and this sentence with the product.' {
+    link ./architecture/model/app.c4
+    link ./architecture/model/relationships/app.c4
+    link ./architecture/views/overview.c4
+    link ./architecture/views/features/app.c4
+  }
+
+  operator -> app 'Uses' {
+    technology 'Replace with the real client'
+  }
+}

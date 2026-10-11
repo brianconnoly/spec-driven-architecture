@@ -1,0 +1,18 @@
+model {
+  extend app {
+    appApi = container 'App API' 'Sample HTTP API. Replace it with the first real service.' 'TypeScript' {
+      #runtime
+      link ../../../services/app
+
+      httpApi = component 'HTTP API' 'Accepts public HTTP commands for the sample application.' {
+        link ../../app/app-api.tsp
+        link ../../app/request-flow.mmd
+        link ../../../services/app/api.ts
+      }
+    }
+
+    appDb = database 'App DB' 'Primary store for the sample application.' 'PostgreSQL' {
+      #storage
+    }
+  }
+}

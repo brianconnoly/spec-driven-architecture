@@ -1,0 +1,16 @@
+{
+  "name": "spec-driven-starter",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Sample project layout for the spec-driven-architecture skill.",
+  "scripts": {
+    "specs:links": "python3 scripts/check_spec_links.py",
+    "likec4:check": "likec4 validate --no-layout .",
+    "typespec:check": "tsp compile specs/app/app-api.tsp --no-emit"
+  },
+  "devDependencies": {
+    "@typespec/compiler": "^1.9.0",
+    "@typespec/http": "1.9.0",
+    "likec4": "^1.59.2"
+  }
+}

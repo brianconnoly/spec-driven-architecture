@@ -1,0 +1,9 @@
+{
+  "name": "spec-driven-architecture",
+  "version": "0.1.0",
+  "description": "Start and extend a repository with LikeC4, TypeSpec, Mermaid, and bidirectional spec links.",
+  "author": {
+    "name": "Vladislav Korotun"
+  },
+  "license": "MIT"
+}

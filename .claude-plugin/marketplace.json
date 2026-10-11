@@ -1,0 +1,21 @@
+{
+  "name": "spec-driven-architecture",
+  "owner": {
+    "name": "Vladislav Korotun"
+  },
+  "metadata": {
+    "description": "Spec-driven architecture: LikeC4 topology, TypeSpec contracts, Mermaid flows, and links back to code.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "spec-driven-architecture",
+      "description": "Start and extend a repository with LikeC4, TypeSpec, Mermaid, and bidirectional spec links.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/spec-driven-architecture"
+      ]
+    }
+  ]
+}

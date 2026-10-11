@@ -1,0 +1,37 @@
+specification {
+  element person {
+    style {
+      shape person
+    }
+  }
+  element system
+  element container
+  element component
+  element database {
+    style {
+      shape cylinder
+    }
+  }
+
+  relationship http {
+    technology 'HTTP request/response'
+    description 'Synchronous HTTP or HTTPS request/response boundary.'
+  }
+  relationship storageRead {
+    technology 'Storage read'
+    description 'Reads durable or cache-backed data from a storage boundary.'
+  }
+  relationship storageWrite {
+    technology 'Storage write'
+    description 'Writes or mutates data at a storage boundary.'
+  }
+
+  tag deprecated
+  tag legacy
+  tag runtime
+  tag admin
+  tag debug
+  tag observability
+  tag storage
+  tag shared
+}
